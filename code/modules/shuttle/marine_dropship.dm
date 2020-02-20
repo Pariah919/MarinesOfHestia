@@ -495,7 +495,7 @@
 		locked++
 	else
 		data["rear"] = 1
-	
+
 	var/leftdoor = 0
 	for(var/i in shuttle.left_airlocks)
 		var/obj/machinery/door/airlock/A = i
@@ -584,9 +584,9 @@
 		if(!allowed(usr))
 			return
 		if(href_list["lockdown"])
-			
+
 		else if(href_list["release"])
-			
+
 		else if(href_list["lock"])
 			M.lockdown_airlocks(href_list["lock"])
 		else if(href_list["unlock"])
@@ -1008,7 +1008,7 @@
 
 /obj/machinery/computer/shuttle/shuttle_control/dropship2
 	name = "\improper 'Normandy' dropship console"
-	desc = "The remote controls for the 'Normandy' Dropship. Named after a department in France, noteworthy for the famous naval invasion of Normandy on the 6th of June 1944, a bloody but decisive victory in World War II and the campaign for the Liberation of France."
+	desc = "The remote controls for the 'Normandy' Gunship. Named after a department in France, noteworthy for the famous naval invasion of Normandy on the 6th of June 1944, a bloody but decisive victory in World War II and the campaign for the Liberation of France."
 	icon = 'icons/obj/machines/computer.dmi'
 	icon_state = "shuttle"
 	resistance_flags = UNACIDABLE|INDESTRUCTIBLE
