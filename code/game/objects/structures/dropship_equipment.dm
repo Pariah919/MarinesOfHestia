@@ -745,7 +745,7 @@
 	icon_state = "launch_bay"
 	desc = "A launch bay to drop special ordnance. Fits inside the dropship's crew weapon emplacement. Moving this will require some sort of lifter."
 	icon = 'icons/Marine/mainship_props.dmi'
-	firing_sound = 'sound/weapons/guns/fire/flare_explode.ogg'
+	firing_sound = 'sound/weapons/guns/fire/tank_cannon_distant1.ogg'
 	firing_delay = 10 //1 seconds
 	equip_category = DROPSHIP_CREW_WEAPON //fits inside the central spot of the dropship
 	point_cost = 0
