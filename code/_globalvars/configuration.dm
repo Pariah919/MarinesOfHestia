@@ -5,7 +5,7 @@ GLOBAL_DATUM(revdata, /datum/getrev)
 GLOBAL_VAR(host)
 GLOBAL_VAR_INIT(game_version, "TGMC")
 GLOBAL_VAR_INIT(changelog_hash, "")
-GLOBAL_VAR_INIT(hub_visibility, FALSE)
+GLOBAL_VAR_INIT(hub_visibility, TRUE)
 
 
 //This was a define, but I changed it to a variable so it can be changed in-game.(kept the all-caps definition because... code...) -Errorage
