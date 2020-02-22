@@ -15,7 +15,7 @@
 	siemens_coefficient = 0.9
 	var/gas_filter_strength = 1			//For gas mask filters
 	var/list/filtered_gases = list(/datum/reagent/toxin/phoron, "sleeping_agent", "carbon_dioxide")
-	var/should_tint = TRUE
+	var/should_tint = FALSE
 
 /obj/item/clothing/mask/gas/Initialize()
 	. = ..()
