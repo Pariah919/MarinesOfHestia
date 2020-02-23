@@ -569,7 +569,7 @@
 
 /obj/item/weapon/gun/rifle/standard_autoshotgun
 	name = "\improper TX-15 automatic shotgun"
-	desc = "The TX-15 Automatic Assault Shotgun, produced by Terran Armories. Another iteration of the ZX series of firearms, taking over the SX as the semi-automatic shotgun provided to the Kolonialwätche. Compared to the SX, this Shotgun is rifled, and loads primarily longer ranged munitions, being incompatible with buckshot shells. Takes 12 round magazines."
+	desc = "The TX-15 Automatic Assault Shotgun, designed by Terran Armories. Used by the Kolonialwätche. Another iteration of the ZX series of firearms, taking over the SX as the semi-automatic shotgun provided to the Kolonialwätche. Compared to the SX, this Shotgun is rifled, and loads primarily longer ranged munitions, being incompatible with buckshot shells. Takes 12 round magazines."
 	icon_state = "tx15"
 	item_state = "tx15"
 	fire_sound = 'sound/weapons/guns/fire/shotgun.ogg'
