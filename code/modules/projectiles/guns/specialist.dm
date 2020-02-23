@@ -593,7 +593,7 @@
 
 /obj/item/weapon/gun/launcher/m81
 	name = "\improper M81 grenade launcher"
-	desc = "A lightweight, single-shot grenade launcher used by the TerraGov Marine Corps for area denial and big explosions."
+	desc = "A lightweight, single-shot grenade launcher used by the Kolonialwätche Marine Corps for area denial and big explosions."
 	icon_state = "m81"
 	item_state = "m81"
 	max_shells = 1 //codex
@@ -717,7 +717,7 @@
 
 /obj/item/weapon/gun/launcher/m81/riot
 	name = "\improper M81 riot grenade launcher"
-	desc = "A lightweight, single-shot grenade launcher to launch tear gas grenades. Used by the TerraGov Marine Corps Military Police during riots."
+	desc = "A lightweight, single-shot grenade launcher to launch tear gas grenades. Used by the Kolonialwätche Marine Corps Military Police during riots."
 	grenade_type_allowed = /obj/item/explosive/grenade/chem_grenade
 	riot_version = TRUE
 	flags_gun_features = GUN_UNUSUAL_DESIGN|GUN_POLICE|GUN_WIELDED_FIRING_ONLY|GUN_AMMO_COUNTER
@@ -728,7 +728,7 @@
 
 /obj/item/weapon/gun/launcher/rocket
 	name = "\improper M5 RPG"
-	desc = "The M5 RPG is the primary anti-armor weapon of the TGMC. Used to take out light-tanks and enemy structures, the M5 RPG is a dangerous weapon with a variety of combat uses."
+	desc = "The M5 RPG is the primary anti-armor weapon of the Kolonialwätche. Used to take out light-tanks and enemy structures, the M5 RPG is a dangerous weapon with a variety of combat uses."
 	icon_state = "m5"
 	item_state = "m5"
 	max_shells = 1 //codex
