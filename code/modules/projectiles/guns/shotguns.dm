@@ -727,7 +727,7 @@ can cause issues with ammo types getting mixed up during the burst.
 //T-35 Pump shotgun
 /obj/item/weapon/gun/shotgun/pump/t35
 	name = "\improper T-35 pump shotgun"
-	desc = "The T-35 is the shotgun used by the TerraGov Marine Corps. It's used as a close quarters tool when someone wants something more suited for close range than most people, or as an odd sidearm on your back for emergencies. Uses 12 gauge shells."
+	desc = "The T-35 is the shotgun used by the Kolonialwätche Marine Corps. It's used as a close quarters tool when someone wants something more suited for close range than most people, or as an odd sidearm on your back for emergencies. Uses 12 gauge shells."
 	flags_equip_slot = ITEM_SLOT_BACK
 	icon_state = "t35"
 	item_state = "t35"
