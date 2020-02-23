@@ -289,7 +289,7 @@
 
 /obj/item/weapon/gun/rifle/m4ra
 	name = "\improper M4RA battle rifle"
-	desc = "The M4RA battle rifle is a designated marksman rifle in service with the TGMC. Only fielded in small numbers, and sporting a bullpup configuration, the M4RA battle rifle is perfect for reconnaissance and fire support teams.\nIt is equipped with rail scope and takes 10x24mm A19 high velocity magazines."
+	desc = "The M4RA battle rifle is a designated marksman rifle in service with the Kolonialwätche. Only fielded in small numbers, and sporting a bullpup configuration, the M4RA battle rifle is perfect for reconnaissance and fire support teams.\nIt is equipped with rail scope and takes 10x24mm A19 high velocity magazines."
 	icon_state = "m4ra"
 	item_state = "m4ra"
 	max_shells = 20 //codex
