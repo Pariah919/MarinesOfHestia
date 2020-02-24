@@ -446,3 +446,14 @@
 		return
 	var/image/pain = image('icons/mob/talk.dmi', user, icon_state = "pain")
 	user.add_emote_overlay(pain)
+
+/datum/emote/living/carbon/human/snap
+	key = "snap"
+	key_third_person = "snaps"
+	message = "snaps their fingers."
+	message_param = "snaps their fingers at %t."
+	flags_emote = EMOTE_RESTRAINT_CHECK
+	emote_type = EMOTE_AUDIBLE
+
+/datum/emote/living/carbon/human/snap/get_sound(mob/living/carbon/human/user)
+	return pick('sound/misc/fingersnap1.ogg','sound/misc/fingersnap2.ogg')
