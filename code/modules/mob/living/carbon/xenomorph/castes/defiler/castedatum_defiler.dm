@@ -47,7 +47,6 @@
 		/datum/action/xeno_action/activable/larval_growth_sting/defiler,
 		/datum/action/xeno_action/activable/neurotox_sting,
 		/datum/action/xeno_action/activable/emit_neurogas,
-		/datum/action/xeno_action/neuroclaws
 		)
 
 /datum/xeno_caste/defiler/young
