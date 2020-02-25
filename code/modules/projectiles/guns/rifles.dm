@@ -41,7 +41,7 @@
 
 /obj/item/weapon/gun/rifle/standard_carbine
     name = "\improper T-18 carbine"
-    desc = "The T-18 carbine is one of the standard rifles used by the TerraGov Marine Corps. It's commonly used by people who prefer greater mobility in combat, like scouts and other light infantry. Lacks an automatic fire mode, but has a burst fire mode to improve damage output. Uses 10x24mm caseless ammunition."
+    desc = "The T-18 carbine is one of the standard rifles used by the Kolonialwätche Marine Corps. It's commonly used by people who prefer greater mobility in combat, like scouts and other light infantry. Lacks an automatic fire mode, but has a burst fire mode to improve damage output. Uses 10x24mm caseless ammunition."
     icon_state = "t18"
     item_state = "t18"
     fire_sound = "sound/weapons/guns/fire/t18.ogg"
@@ -86,7 +86,7 @@
 
 /obj/item/weapon/gun/rifle/standard_assaultrifle
     name = "\improper T-12 assault rifle"
-    desc = "The T-12 assault rifle used to be the TerraGov Marine Corps standard issue rifle before the T-18 carbine replaced it. It's however still used widely despite that. The gun itself is very good at being used in most situations however it suffers in engagements at close quarters and is relatively hard to shoulder than some others. It uses 10x24mm caseless ammunition."
+    desc = "The T-12 assault rifle used to be the Kolonialwätche Marine Corps standard issue rifle before the T-18 carbine replaced it. It's however still used widely despite that. The gun itself is very good at being used in most situations however it suffers in engagements at close quarters and is relatively hard to shoulder than some others. It uses 10x24mm caseless ammunition."
     icon_state = "t12"
     item_state = "t12"
     fire_sound = "sound/weapons/guns/fire/t18.ogg"
@@ -133,7 +133,7 @@
 
 /obj/item/weapon/gun/rifle/standard_dmr
 	name = "\improper T-64 designated marksman rifle"
-	desc = "The T-64 DMR is the TerraGov Marine Corps designated marksman rifle. It is rather well-known for it's very consistent target placement at longer than usual range, it however lacks a burst fire mode or an automatic mode. It is mostly used by people who prefer to do more careful shooting than most. Uses 10x27 caliber."
+	desc = "The T-64 DMR is the Kolonialwätche Marine Corps designated marksman rifle. It is rather well-known for it's very consistent target placement at longer than usual range, it however lacks a burst fire mode or an automatic mode. It is mostly used by people who prefer to do more careful shooting than most. Uses 10x27 caliber."
 	icon_state = "t64"
 	item_state = "t64"
 	muzzleflash_iconstate = "muzzle_flash_medium"
@@ -185,7 +185,7 @@
 
 /obj/item/weapon/gun/rifle/m41a1
 	name = "\improper M41A1 pulse rifle"
-	desc = "An outdated rifle for the TerraGov Marine Corps, carried by a few coporate mercenaries. However, the M41A1 is a very rare sight in TerraGov systems. Uses 10x24mm caseless ammunition."
+	desc = "An outdated rifle commonly carried by a coporate mercenaries. However, the M41A1 is a very rare sight in Empire systems outside of that. Uses 10x24mm caseless ammunition."
 	icon_state = "m41a1"
 	item_state = "m41a1"
 	muzzleflash_iconstate = "muzzle_flash_medium"
@@ -254,7 +254,7 @@
 
 /obj/item/weapon/gun/rifle/m41a
 	name = "\improper M41A pulse rifle"
-	desc = "An older design of the pulse rifle used by the TerraGov Marine Corps. Uses 10x24mm caseless ammunition."
+	desc = "An older design of the pulse rifle used by PMCs. Uses 10x24mm caseless ammunition."
 	icon_state = "m41a"
 	item_state = "m41a"
 	fire_sound = "gun_pulse"
@@ -395,7 +395,7 @@
 
 /obj/item/weapon/gun/rifle/standard_lmg
 	name = "\improper T-42 light machine gun"
-	desc = "The T-42 LMG is the TGMC's current standard non-IFF-capable LMG. It's known for its ability to lay down heavy fire support very well. It is generally used when someone wants to hold a position or provide fire support. It uses 10x24mm ammunition."
+	desc = "The T-42 LMG is the Kolonialwätche's current standard non-IFF-capable LMG. It's known for its ability to lay down heavy fire support very well. It is generally used when someone wants to hold a position or provide fire support. It uses 10x24mm ammunition."
 	icon_state = "t42"
 	item_state = "t42"
 	caliber = "10x24mm caseless" //codex
@@ -569,7 +569,7 @@
 
 /obj/item/weapon/gun/rifle/standard_autoshotgun
 	name = "\improper TX-15 automatic shotgun"
-	desc = "The TX-15 Automatic Assault Shotgun, produced by Terran Armories. Another iteration of the ZX series of firearms, taking over the SX as the semi-automatic shotgun provided to the TGMC. Compared to the SX, this Shotgun is rifled, and loads primarily longer ranged munitions, being incompatible with buckshot shells. Takes 12 round magazines."
+	desc = "The TX-15 Automatic Assault Shotgun, designed by Terran Armories. Used by the Kolonialwätche. Another iteration of the ZX series of firearms, taking over the SX as the semi-automatic shotgun provided to the Kolonialwätche. Compared to the SX, this Shotgun is rifled, and loads primarily longer ranged munitions, being incompatible with buckshot shells. Takes 12 round magazines."
 	icon_state = "tx15"
 	item_state = "tx15"
 	fire_sound = 'sound/weapons/guns/fire/shotgun.ogg'

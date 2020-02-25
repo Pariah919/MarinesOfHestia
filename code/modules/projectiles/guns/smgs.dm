@@ -44,7 +44,7 @@
 
 /obj/item/weapon/gun/smg/standard_smg
 	name = "\improper T-19 submachinegun"
-	desc = "The T-19 submachine gun is the TerraGov Marine Corps standard issue SMG. Its known for it's compact size and ease of use inside the field. It's usually carried by specialized troops who do not have the space to carry a much larger gun like medics and engineers. It uses 10x20mm caseless rounds."
+	desc = "The T-19 submachine gun is the Kolonialwätche Marine Corps standard issue SMG. Its known for it's compact size and ease of use inside the field. It's usually carried by specialized troops who do not have the space to carry a much larger gun like medics and engineers. It uses 10x20mm caseless rounds."
 	icon_state = "t19"
 	item_state = "t19"
 	caliber = "10x20mm caseless" //codex

@@ -50,7 +50,7 @@
 
 /obj/item/weapon/gun/pistol/standard_pistol
 	name = "\improper TP-14 pistol"
-	desc = "The TP-14, produced by Terran Armories. A reliable sidearm that loads 9x19mm Parabellum Auto munitions. Capable of mounting a limited amount of attachments, and firing at a respectable rate of fire, often as fast as you can pull the trigger. Takes 14 round magazines."
+	desc = "The TP-14, produced by Terran Armories. Used by the Kolonialwätche. A reliable sidearm that loads 9x19mm Parabellum Auto munitions. Capable of mounting a limited amount of attachments, and firing at a respectable rate of fire, often as fast as you can pull the trigger. Takes 14 round magazines."
 	icon_state = "tp14"
 	item_state = "tp14"
 	caliber = "9x19mm Parabellum" //codex
@@ -72,7 +72,7 @@
 
 /obj/item/weapon/gun/pistol/m4a3
 	name = "\improper M4A3 service pistol"
-	desc = "An M4A3 Colt Service Pistol, the standard issue sidearm of the TerraGov Marine Corps."
+	desc = "An M4A3 Colt Pistol."
 	icon_state = "m4a3"
 	item_state = "m4a3"
 	caliber = "9x19mm Parabellum" //codex
@@ -90,7 +90,7 @@
 
 /obj/item/weapon/gun/pistol/m4a3/custom
 	name = "\improper M4A3 custom pistol"
-	desc = "An M4A3 Service Pistol, the standard issue sidearm of the TerraGov Marine Corps. This one has an ivory-colored grip and has a slide carefully polished yearly by a team of orphan children. Looks like it belongs to a low-ranking officer."
+	desc = "An M4A3 Colt Pistol. This one has an ivory-colored grip and has a slide carefully polished yearly by a team of orphan children. Looks like it belongs to a low-ranking officer."
 	icon_state = "m4a3c"
 	item_state = "m4a3c"
 
@@ -370,7 +370,7 @@
 
 /obj/item/weapon/gun/pistol/vp70
 	name = "\improper 88 Mod 4 combat pistol"
-	desc = "A powerful sidearm issued mainly to Nanotrasen private contractors, but issued to the TGMC in small numbers, based on the original VP70 more than a century ago. Fires 9mm armor piercing rounds and is capable of 3-round burst."
+	desc = "A powerful sidearm issued mainly to Nanotrasen private contractors, but issued to the Kolonialwätche in small numbers, based on the original VP70 more than a century ago. Fires 9mm armor piercing rounds and is capable of 3-round burst."
 	icon_state = "88m4"
 	item_state = "88m4"
 	caliber = "9x19mm Parabellum" //codex
