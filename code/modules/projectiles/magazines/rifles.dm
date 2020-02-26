@@ -218,3 +218,14 @@
 	default_ammo = /datum/ammo/bullet/shotgun/tx15_slug
 	max_rounds = 12
 	gun_type = /obj/item/weapon/gun/rifle/standard_autoshotgun
+
+	//BR PROOF OF CONCEPT.
+	/obj/item/ammo_magazine/rifle/
+	name = "\improper M41A1 magazine (10x24mm)"
+	desc = "A 10mm battle rifle magazine."
+	caliber = "10x27mm caseless"
+	icon_state = "m41a1"
+	w_class = WEIGHT_CLASS_NORMAL
+	default_ammo = /datum/ammo/bullet/rifle/ak47
+	max_rounds = 20
+	gun_type = /obj/item/weapon/gun/rifle/standard_br
