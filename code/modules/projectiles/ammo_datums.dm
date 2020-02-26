@@ -446,9 +446,8 @@ GLOBAL_LIST_INIT(no_sticky_resin, typecacheof(list(/obj/item/clothing/mask/faceh
 /datum/ammo/bullet/rifle/ak47
 	name = "heavy rifle bullet"
 	hud_state = "rifle_heavy"
-	accuracy = -15
 	damage = 30
-	penetration = 20
+	penetration = 15
 
 /datum/ammo/bullet/rifle/standard_dmr
 	name = "marksman bullet"
