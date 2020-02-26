@@ -602,13 +602,14 @@
 	fire_delay = 1.1 SECONDS
 	burst_amount = 1
 
-	//BR PROOF OF CONCEPT
-	
-	/obj/item/weapon/gun/rifle/standard_br
+//-------------------------------------------------------
+//BR PROOF OF CONCEPT
+
+/obj/item/weapon/gun/rifle/standard_br
 	name = "\improper T-BR battle rifle"
 	desc = "The T-BR is the Kolonialwätche Marine Corps designated battle rifle. It is rather well-known for it's very consistent target placement at longer than usual range, it however lacks a burst fire mode or an automatic mode. It is mostly used by people who prefer to do more careful shooting than most. Uses 10x27 caliber."
-	icon_state = "m41a2"
-	item_state = "m41a2"
+	icon_state = "m41a1"
+	item_state = "m41a1"
 	muzzleflash_iconstate = "muzzle_flash_medium"
 	fire_sound = "sound/weapons/guns/fire/T64.ogg"
 	dry_fire_sound = 'sound/weapons/guns/fire/m41a_empty.ogg'
@@ -618,8 +619,8 @@
 	aim_slowdown = 0.5
 	wield_delay = 0.65 SECONDS
 	force = 20
-	max_shells = 10 //codex
-	current_mag = /obj/item/ammo_magazine/rifle/standard_dmr
+	max_shells = 20 //codex
+	current_mag = /obj/item/ammo_magazine/rifle/standard_br
 	attachable_allowed = list(
 						/obj/item/attachable/quickfire,
 						/obj/item/attachable/suppressor,
