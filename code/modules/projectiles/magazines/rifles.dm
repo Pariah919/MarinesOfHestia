@@ -220,7 +220,7 @@
 	gun_type = /obj/item/weapon/gun/rifle/standard_autoshotgun
 
 	//BR PROOF OF CONCEPT.
-	/obj/item/ammo_magazine/rifle/
+	/obj/item/ammo_magazine/rifle/standard_br
 	name = "\improper M41A1 magazine (10x24mm)"
 	desc = "A 10mm battle rifle magazine."
 	caliber = "10x27mm caseless"
