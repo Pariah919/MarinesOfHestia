@@ -32,6 +32,7 @@
 	var/mob/living/carbon/laser_target = null
 	var/image/LT = null
 	var/obj/item/binoculars/tactical/integrated_laze = null
+	var/datum/ammo/ammo_secondary = /datum/ammo/bullet/smartgun/lethal/
 	attachable_allowed = list(
 						/obj/item/attachable/bipod,
 						/obj/item/attachable/lasersight,
@@ -211,6 +212,17 @@
 		playsound(user,'sound/machines/click.ogg', 25, 1)
 	return TRUE
 
+/obj/item/weapon/gun/rifle/sniper/M42A/toggle_gun_safety()
+	var/obj/item/weapon/gun/rifle/sniper/M42A/G = get_active_firearm(usr)
+	if(!istype(G))
+		return //Right kind of gun is not in hands, abort.
+	src = G
+	to_chat(usr, "[icon2html(src, usr)] You [restriction_toggled? "<B>disable</b>" : "<B>enable</b>"] the [src]'s fire restriction. You will [restriction_toggled ? "harm anyone in your way" : "target through IFF"].")
+	playsound(loc,'sound/machines/click.ogg', 25, 1)
+	var/A = ammo
+	ammo = ammo_secondary
+	ammo_secondary = A
+	restriction_toggled = !restriction_toggled
 
 /obj/item/weapon/gun/rifle/sniper/elite
 	name = "\improper M42C anti-tank sniper rifle"
