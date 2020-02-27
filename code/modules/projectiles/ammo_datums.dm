@@ -1028,6 +1028,8 @@ GLOBAL_LIST_INIT(no_sticky_resin, typecacheof(list(/obj/item/clothing/mask/faceh
 	damage = 12 //requires mod with -0.15 multiplier should math out to 10
 	penetration = 0
 	flags_ammo_behavior = AMMO_ENERGY|AMMO_INCENDIARY
+	max_range = 7
+	accurate_range = 7
 
 /datum/ammo/energy/lasgun/M43/blast
 	name = "wide range laser blast"
