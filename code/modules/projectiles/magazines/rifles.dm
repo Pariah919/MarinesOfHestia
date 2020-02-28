@@ -229,3 +229,4 @@
 	default_ammo = /datum/ammo/bullet/rifle/ak47
 	max_rounds = 20
 	gun_type = /obj/item/weapon/gun/rifle/standard_br
+	
