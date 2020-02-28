@@ -363,10 +363,11 @@
 	starting_attachment_types = list(/obj/item/attachable/flashlight)
 	attachable_offset = list("muzzle_x" = 33, "muzzle_y" = 16,"rail_x" = 11, "rail_y" = 18, "under_x" = 22, "under_y" = 14, "stock_x" = 22, "stock_y" = 14)
 
-	fire_delay = 0.3 SECONDS
+	fire_delay = 0.2 SECONDS
 	burst_amount = 4
 	accuracy_mult = 1.15
 	damage_falloff_mult = 0.5
+	scatter = -30
 
 
 /obj/item/weapon/gun/smartgun/Initialize()
