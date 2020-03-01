@@ -32,7 +32,7 @@
 	var/mob/living/carbon/laser_target = null
 	var/image/LT = null
 	var/obj/item/binoculars/tactical/integrated_laze = null
-	var/datum/ammo/ammo_secondary = /datum/ammo/bullet/smartgun/lethal/
+	var/datum/ammo/ammo_secondary = /datum/ammo/bullet/sniper/lethal
 	attachable_allowed = list(
 						/obj/item/attachable/bipod,
 						/obj/item/attachable/lasersight,
