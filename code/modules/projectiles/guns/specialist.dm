@@ -223,10 +223,7 @@
 	ammo = ammo_secondary
 	ammo_secondary = A
 	restriction_toggled = !restriction_toggled
-	QDEL_NULL(in_chamber)
-	replace_ammo(/datum/ammo/path/here)
-	in_chamber = create_bullet(/datum/ammo/path/here)
-
+	
 /obj/item/weapon/gun/rifle/sniper/elite
 	name = "\improper M42C anti-tank sniper rifle"
 	desc = "A high end mag-rail heavy sniper rifle from Nanotrasen chambered in the heaviest ammo available, 10x99mm Caseless."
