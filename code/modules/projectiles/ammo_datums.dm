@@ -753,6 +753,7 @@ GLOBAL_LIST_INIT(no_sticky_resin, typecacheof(list(/obj/item/clothing/mask/faceh
 	hud_state_empty = "sniper_empty"
 	damage_falloff = 0
 	flags_ammo_behavior = AMMO_BALLISTIC|AMMO_SNIPER|
+	iff_signal = null
 	accurate_range_min = 5
 	shell_speed = 4
 	accurate_range = 30
