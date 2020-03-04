@@ -748,7 +748,7 @@ GLOBAL_LIST_INIT(no_sticky_resin, typecacheof(list(/obj/item/clothing/mask/faceh
 	penetration = 60
 
 	/datum/ammo/bullet/sniper/lethal
-	name = "sniper bullet"
+	name = "heavy sniper bullet"
 	hud_state = "sniper"
 	hud_state_empty = "sniper_empty"
 	damage_falloff = 0
